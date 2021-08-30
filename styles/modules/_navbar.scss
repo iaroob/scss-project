@@ -1,0 +1,36 @@
+.navbar {
+    background-size: cover;
+    background-color: $mainBlue;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+    &__ul {
+        list-style-type: none;
+        margin: auto;
+        padding: auto;
+        overflow: hidden;
+        
+          
+    }
+  
+    &__li a {
+        float: left;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        border-right: 1px solid #bbb;
+        letter-spacing: 1px;
+        line-height: 2;
+        font-weight: 400;
+        
+    }
+
+    a:hover {
+        background-color: $paraGray;
+    }
+
+    
+}

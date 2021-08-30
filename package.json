@@ -1,0 +1,14 @@
+{
+  "name": "css-workflow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node-sass styles/styles.scss css/styles.css -w"
+  },
+  "author": "Aroob",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^6.0.1"
+  }
+}

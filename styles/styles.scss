@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,800;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@400;600;700&display=swap');
+
+@import "./base/variables";
+@import "./base/global";
+
+@import "./layout/wrapper";
+@import "./layout/button";
+@import "./layout/page-section";
+@import "./layout/section-title";
+@import "./layout/generic-text";
+
+@import "./modules/hero";
+@import "./modules/services";
+@import "./modules/footer";
+@import "./modules/navbar";
